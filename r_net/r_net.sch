@@ -1,0 +1,2748 @@
+EESchema Schematic File Version 4
+LIBS:r_net-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BD85F6C
+P 2000 1050
+AR Path="/5BD8431C/5BD85F6C" Ref="RN?"  Part="1" 
+AR Path="/5BD85F6C" Ref="RN1"  Part="1" 
+F 0 "RN1" H 2488 1096 50  0000 L CNN
+F 1 "R_Pack10" H 2488 1005 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 2575 1050 50  0001 C CNN
+F 3 "~" H 2000 1050 50  0001 C CNN
+	1    2000 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1250 1550 1250
+Wire Wire Line
+	1550 1250 1550 850 
+Wire Wire Line
+	1550 850  1600 850 
+Wire Wire Line
+	1600 1250 1650 1250
+Wire Wire Line
+	1650 1250 1650 850 
+Wire Wire Line
+	1650 850  1700 850 
+Wire Wire Line
+	1700 1250 1750 1250
+Wire Wire Line
+	1750 1250 1750 850 
+Wire Wire Line
+	1750 850  1800 850 
+Wire Wire Line
+	1800 1250 1850 1250
+Wire Wire Line
+	1850 1250 1850 850 
+Wire Wire Line
+	1850 850  1900 850 
+Wire Wire Line
+	1900 1250 1950 1250
+Wire Wire Line
+	1950 1250 1950 850 
+Wire Wire Line
+	1950 850  2000 850 
+Wire Wire Line
+	2000 1250 2050 1250
+Wire Wire Line
+	2050 1250 2050 850 
+Wire Wire Line
+	2050 850  2100 850 
+Wire Wire Line
+	2100 1250 2150 1250
+Wire Wire Line
+	2150 1250 2150 850 
+Wire Wire Line
+	2150 850  2200 850 
+Wire Wire Line
+	2200 1250 2250 1250
+Wire Wire Line
+	2250 1250 2250 850 
+Wire Wire Line
+	2250 850  2300 850 
+Wire Wire Line
+	2300 1250 2350 1250
+Wire Wire Line
+	2350 1250 2350 850 
+Wire Wire Line
+	2350 850  2400 850 
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BD85F8E
+P 3000 1050
+AR Path="/5BD8431C/5BD85F8E" Ref="RN?"  Part="1" 
+AR Path="/5BD85F8E" Ref="RN2"  Part="1" 
+F 0 "RN2" H 3488 1096 50  0000 L CNN
+F 1 "R_Pack10" H 3488 1005 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 3575 1050 50  0001 C CNN
+F 3 "~" H 3000 1050 50  0001 C CNN
+	1    3000 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1250 2550 1250
+Wire Wire Line
+	2550 1250 2550 850 
+Wire Wire Line
+	2550 850  2600 850 
+Wire Wire Line
+	2600 1250 2650 1250
+Wire Wire Line
+	2650 1250 2650 850 
+Wire Wire Line
+	2650 850  2700 850 
+Wire Wire Line
+	2700 1250 2750 1250
+Wire Wire Line
+	2750 1250 2750 850 
+Wire Wire Line
+	2750 850  2800 850 
+Wire Wire Line
+	2800 1250 2850 1250
+Wire Wire Line
+	2850 1250 2850 850 
+Wire Wire Line
+	2850 850  2900 850 
+Wire Wire Line
+	2900 1250 2950 1250
+Wire Wire Line
+	2950 1250 2950 850 
+Wire Wire Line
+	2950 850  3000 850 
+Wire Wire Line
+	3000 1250 3050 1250
+Wire Wire Line
+	3050 1250 3050 850 
+Wire Wire Line
+	3050 850  3100 850 
+Wire Wire Line
+	3100 1250 3150 1250
+Wire Wire Line
+	3150 1250 3150 850 
+Wire Wire Line
+	3150 850  3200 850 
+Wire Wire Line
+	3200 1250 3250 1250
+Wire Wire Line
+	3250 1250 3250 850 
+Wire Wire Line
+	3250 850  3300 850 
+Wire Wire Line
+	3300 1250 3350 1250
+Wire Wire Line
+	3350 1250 3350 850 
+Wire Wire Line
+	3350 850  3400 850 
+Wire Wire Line
+	2400 1250 2450 1250
+Wire Wire Line
+	2450 1250 2450 850 
+Wire Wire Line
+	2450 850  2500 850 
+Text GLabel 1500 800  1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	1500 850  1500 800 
+Text GLabel 750  3650 0    50   BiDi ~ 0
+DIV0
+Text GLabel 750  3750 0    50   BiDi ~ 0
+DIV1
+Text GLabel 750  3850 0    50   BiDi ~ 0
+DIV2
+$Comp
+L Connector:Conn_01x18_Female J1
+U 1 1 5BD87BF6
+P 950 4450
+F 0 "J1" H 843 3325 50  0000 C CNN
+F 1 "Conn_01x18_Female" H 843 3416 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Horizontal" H 950 4450 50  0001 C CNN
+F 3 "~" H 950 4450 50  0001 C CNN
+	1    950  4450
+	1    0    0    1   
+$EndComp
+Text GLabel 750  3950 0    50   BiDi ~ 0
+DIV3
+Text GLabel 750  4050 0    50   BiDi ~ 0
+DIV4
+Text GLabel 750  4150 0    50   BiDi ~ 0
+DIV5
+Text GLabel 750  4250 0    50   BiDi ~ 0
+DIV6
+Text GLabel 750  4350 0    50   BiDi ~ 0
+DIV7
+Text GLabel 750  4450 0    50   BiDi ~ 0
+DIV8
+Text GLabel 750  4550 0    50   BiDi ~ 0
+DIV9
+Text GLabel 750  4650 0    50   BiDi ~ 0
+DIV10
+Text GLabel 750  4750 0    50   BiDi ~ 0
+DIV11
+Text GLabel 750  4850 0    50   BiDi ~ 0
+DIV12
+Text GLabel 750  4950 0    50   BiDi ~ 0
+DIV13
+Text GLabel 750  5050 0    50   BiDi ~ 0
+DIV14
+Text GLabel 750  5150 0    50   BiDi ~ 0
+DIV15
+Text GLabel 750  5250 0    50   BiDi ~ 0
+5V
+$Comp
+L power:GND #PWR01
+U 1 1 5BD902E2
+P 750 3550
+F 0 "#PWR01" H 750 3300 50  0001 C CNN
+F 1 "GND" V 755 3422 50  0000 R CNN
+F 2 "" H 750 3550 50  0001 C CNN
+F 3 "" H 750 3550 50  0001 C CNN
+	1    750  3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BD9BC86
+P 4400 1050
+AR Path="/5BD8431C/5BD9BC86" Ref="RN?"  Part="1" 
+AR Path="/5BD9BC86" Ref="RN9"  Part="1" 
+F 0 "RN9" H 4888 1096 50  0000 L CNN
+F 1 "R_Pack10" H 4888 1005 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 4975 1050 50  0001 C CNN
+F 3 "~" H 4400 1050 50  0001 C CNN
+	1    4400 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1250 3950 1250
+Wire Wire Line
+	3950 1250 3950 850 
+Wire Wire Line
+	3950 850  4000 850 
+Wire Wire Line
+	4000 1250 4050 1250
+Wire Wire Line
+	4050 1250 4050 850 
+Wire Wire Line
+	4050 850  4100 850 
+Wire Wire Line
+	4100 1250 4150 1250
+Wire Wire Line
+	4150 1250 4150 850 
+Wire Wire Line
+	4150 850  4200 850 
+Wire Wire Line
+	4200 1250 4250 1250
+Wire Wire Line
+	4250 1250 4250 850 
+Wire Wire Line
+	4250 850  4300 850 
+Wire Wire Line
+	4300 1250 4350 1250
+Wire Wire Line
+	4350 1250 4350 850 
+Wire Wire Line
+	4350 850  4400 850 
+Wire Wire Line
+	4400 1250 4450 1250
+Wire Wire Line
+	4450 1250 4450 850 
+Wire Wire Line
+	4450 850  4500 850 
+Wire Wire Line
+	4500 1250 4550 1250
+Wire Wire Line
+	4550 1250 4550 850 
+Wire Wire Line
+	4550 850  4600 850 
+Wire Wire Line
+	4600 1250 4650 1250
+Wire Wire Line
+	4650 1250 4650 850 
+Wire Wire Line
+	4650 850  4700 850 
+Wire Wire Line
+	4700 1250 4750 1250
+Wire Wire Line
+	4750 1250 4750 850 
+Wire Wire Line
+	4750 850  4800 850 
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BD9BCA7
+P 5400 1050
+AR Path="/5BD8431C/5BD9BCA7" Ref="RN?"  Part="1" 
+AR Path="/5BD9BCA7" Ref="RN13"  Part="1" 
+F 0 "RN13" H 5888 1096 50  0000 L CNN
+F 1 "R_Pack10" H 5888 1005 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 5975 1050 50  0001 C CNN
+F 3 "~" H 5400 1050 50  0001 C CNN
+	1    5400 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1250 4950 1250
+Wire Wire Line
+	4950 1250 4950 850 
+Wire Wire Line
+	4950 850  5000 850 
+Wire Wire Line
+	5000 1250 5050 1250
+Wire Wire Line
+	5050 1250 5050 850 
+Wire Wire Line
+	5050 850  5100 850 
+Wire Wire Line
+	5100 1250 5150 1250
+Wire Wire Line
+	5150 1250 5150 850 
+Wire Wire Line
+	5150 850  5200 850 
+Wire Wire Line
+	5200 1250 5250 1250
+Wire Wire Line
+	5250 1250 5250 850 
+Wire Wire Line
+	5250 850  5300 850 
+Wire Wire Line
+	5300 1250 5350 1250
+Wire Wire Line
+	5350 1250 5350 850 
+Wire Wire Line
+	5350 850  5400 850 
+Wire Wire Line
+	5400 1250 5450 1250
+Wire Wire Line
+	5450 1250 5450 850 
+Wire Wire Line
+	5450 850  5500 850 
+Wire Wire Line
+	5500 1250 5550 1250
+Wire Wire Line
+	5550 1250 5550 850 
+Wire Wire Line
+	5550 850  5600 850 
+Wire Wire Line
+	5600 1250 5650 1250
+Wire Wire Line
+	5650 1250 5650 850 
+Wire Wire Line
+	5650 850  5700 850 
+Wire Wire Line
+	5700 1250 5750 1250
+Wire Wire Line
+	5750 1250 5750 850 
+Wire Wire Line
+	5750 850  5800 850 
+Wire Wire Line
+	4800 1250 4850 1250
+Wire Wire Line
+	4850 1250 4850 850 
+Wire Wire Line
+	4850 850  4900 850 
+Text GLabel 3900 800  1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	3900 850  3900 800 
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDA4C82
+P 6800 1050
+AR Path="/5BD8431C/5BDA4C82" Ref="RN?"  Part="1" 
+AR Path="/5BDA4C82" Ref="RN17"  Part="1" 
+F 0 "RN17" H 7288 1096 50  0000 L CNN
+F 1 "R_Pack10" H 7288 1005 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 7375 1050 50  0001 C CNN
+F 3 "~" H 6800 1050 50  0001 C CNN
+	1    6800 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1250 6350 1250
+Wire Wire Line
+	6350 1250 6350 850 
+Wire Wire Line
+	6350 850  6400 850 
+Wire Wire Line
+	6400 1250 6450 1250
+Wire Wire Line
+	6450 1250 6450 850 
+Wire Wire Line
+	6450 850  6500 850 
+Wire Wire Line
+	6500 1250 6550 1250
+Wire Wire Line
+	6550 1250 6550 850 
+Wire Wire Line
+	6550 850  6600 850 
+Wire Wire Line
+	6600 1250 6650 1250
+Wire Wire Line
+	6650 1250 6650 850 
+Wire Wire Line
+	6650 850  6700 850 
+Wire Wire Line
+	6700 1250 6750 1250
+Wire Wire Line
+	6750 1250 6750 850 
+Wire Wire Line
+	6750 850  6800 850 
+Wire Wire Line
+	6800 1250 6850 1250
+Wire Wire Line
+	6850 1250 6850 850 
+Wire Wire Line
+	6850 850  6900 850 
+Wire Wire Line
+	6900 1250 6950 1250
+Wire Wire Line
+	6950 1250 6950 850 
+Wire Wire Line
+	6950 850  7000 850 
+Wire Wire Line
+	7000 1250 7050 1250
+Wire Wire Line
+	7050 1250 7050 850 
+Wire Wire Line
+	7050 850  7100 850 
+Wire Wire Line
+	7100 1250 7150 1250
+Wire Wire Line
+	7150 1250 7150 850 
+Wire Wire Line
+	7150 850  7200 850 
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDA4CA3
+P 7800 1050
+AR Path="/5BD8431C/5BDA4CA3" Ref="RN?"  Part="1" 
+AR Path="/5BDA4CA3" Ref="RN21"  Part="1" 
+F 0 "RN21" H 8288 1096 50  0000 L CNN
+F 1 "R_Pack10" H 8288 1005 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 8375 1050 50  0001 C CNN
+F 3 "~" H 7800 1050 50  0001 C CNN
+	1    7800 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1250 7350 1250
+Wire Wire Line
+	7350 1250 7350 850 
+Wire Wire Line
+	7350 850  7400 850 
+Wire Wire Line
+	7400 1250 7450 1250
+Wire Wire Line
+	7450 1250 7450 850 
+Wire Wire Line
+	7450 850  7500 850 
+Wire Wire Line
+	7500 1250 7550 1250
+Wire Wire Line
+	7550 1250 7550 850 
+Wire Wire Line
+	7550 850  7600 850 
+Wire Wire Line
+	7600 1250 7650 1250
+Wire Wire Line
+	7650 1250 7650 850 
+Wire Wire Line
+	7650 850  7700 850 
+Wire Wire Line
+	7700 1250 7750 1250
+Wire Wire Line
+	7750 1250 7750 850 
+Wire Wire Line
+	7750 850  7800 850 
+Wire Wire Line
+	7800 1250 7850 1250
+Wire Wire Line
+	7850 1250 7850 850 
+Wire Wire Line
+	7850 850  7900 850 
+Wire Wire Line
+	7900 1250 7950 1250
+Wire Wire Line
+	7950 1250 7950 850 
+Wire Wire Line
+	7950 850  8000 850 
+Wire Wire Line
+	8000 1250 8050 1250
+Wire Wire Line
+	8050 1250 8050 850 
+Wire Wire Line
+	8050 850  8100 850 
+Wire Wire Line
+	8100 1250 8150 1250
+Wire Wire Line
+	8150 1250 8150 850 
+Wire Wire Line
+	8150 850  8200 850 
+Wire Wire Line
+	7200 1250 7250 1250
+Wire Wire Line
+	7250 1250 7250 850 
+Wire Wire Line
+	7250 850  7300 850 
+Text GLabel 6300 800  1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	6300 850  6300 800 
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDA4D10
+P 9200 1050
+AR Path="/5BD8431C/5BDA4D10" Ref="RN?"  Part="1" 
+AR Path="/5BDA4D10" Ref="RN25"  Part="1" 
+F 0 "RN25" H 9688 1096 50  0000 L CNN
+F 1 "R_Pack10" H 9688 1005 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 9775 1050 50  0001 C CNN
+F 3 "~" H 9200 1050 50  0001 C CNN
+	1    9200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1250 8750 1250
+Wire Wire Line
+	8750 1250 8750 850 
+Wire Wire Line
+	8750 850  8800 850 
+Wire Wire Line
+	8800 1250 8850 1250
+Wire Wire Line
+	8850 1250 8850 850 
+Wire Wire Line
+	8850 850  8900 850 
+Wire Wire Line
+	8900 1250 8950 1250
+Wire Wire Line
+	8950 1250 8950 850 
+Wire Wire Line
+	8950 850  9000 850 
+Wire Wire Line
+	9000 1250 9050 1250
+Wire Wire Line
+	9050 1250 9050 850 
+Wire Wire Line
+	9050 850  9100 850 
+Wire Wire Line
+	9100 1250 9150 1250
+Wire Wire Line
+	9150 1250 9150 850 
+Wire Wire Line
+	9150 850  9200 850 
+Wire Wire Line
+	9200 1250 9250 1250
+Wire Wire Line
+	9250 1250 9250 850 
+Wire Wire Line
+	9250 850  9300 850 
+Wire Wire Line
+	9300 1250 9350 1250
+Wire Wire Line
+	9350 1250 9350 850 
+Wire Wire Line
+	9350 850  9400 850 
+Wire Wire Line
+	9400 1250 9450 1250
+Wire Wire Line
+	9450 1250 9450 850 
+Wire Wire Line
+	9450 850  9500 850 
+Wire Wire Line
+	9500 1250 9550 1250
+Wire Wire Line
+	9550 1250 9550 850 
+Wire Wire Line
+	9550 850  9600 850 
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDA4D31
+P 10200 1050
+AR Path="/5BD8431C/5BDA4D31" Ref="RN?"  Part="1" 
+AR Path="/5BDA4D31" Ref="RN29"  Part="1" 
+F 0 "RN29" H 10688 1096 50  0000 L CNN
+F 1 "R_Pack10" H 10688 1005 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 10775 1050 50  0001 C CNN
+F 3 "~" H 10200 1050 50  0001 C CNN
+	1    10200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 1250 9750 1250
+Wire Wire Line
+	9750 1250 9750 850 
+Wire Wire Line
+	9750 850  9800 850 
+Wire Wire Line
+	9800 1250 9850 1250
+Wire Wire Line
+	9850 1250 9850 850 
+Wire Wire Line
+	9850 850  9900 850 
+Wire Wire Line
+	9900 1250 9950 1250
+Wire Wire Line
+	9950 1250 9950 850 
+Wire Wire Line
+	9950 850  10000 850 
+Wire Wire Line
+	10000 1250 10050 1250
+Wire Wire Line
+	10050 1250 10050 850 
+Wire Wire Line
+	10050 850  10100 850 
+Wire Wire Line
+	10100 1250 10150 1250
+Wire Wire Line
+	10150 1250 10150 850 
+Wire Wire Line
+	10150 850  10200 850 
+Wire Wire Line
+	10200 1250 10250 1250
+Wire Wire Line
+	10250 1250 10250 850 
+Wire Wire Line
+	10250 850  10300 850 
+Wire Wire Line
+	10300 1250 10350 1250
+Wire Wire Line
+	10350 1250 10350 850 
+Wire Wire Line
+	10350 850  10400 850 
+Wire Wire Line
+	10400 1250 10450 1250
+Wire Wire Line
+	10450 1250 10450 850 
+Wire Wire Line
+	10450 850  10500 850 
+Wire Wire Line
+	10500 1250 10550 1250
+Wire Wire Line
+	10550 1250 10550 850 
+Wire Wire Line
+	10550 850  10600 850 
+Wire Wire Line
+	9600 1250 9650 1250
+Wire Wire Line
+	9650 1250 9650 850 
+Wire Wire Line
+	9650 850  9700 850 
+Text GLabel 8700 800  1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	8700 850  8700 800 
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDD884A
+P 2000 2650
+AR Path="/5BD8431C/5BDD884A" Ref="RN?"  Part="1" 
+AR Path="/5BDD884A" Ref="RN3"  Part="1" 
+F 0 "RN3" H 2488 2696 50  0000 L CNN
+F 1 "R_Pack10" H 2488 2605 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 2575 2650 50  0001 C CNN
+F 3 "~" H 2000 2650 50  0001 C CNN
+	1    2000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2850 1550 2850
+Wire Wire Line
+	1550 2850 1550 2450
+Wire Wire Line
+	1550 2450 1600 2450
+Wire Wire Line
+	1600 2850 1650 2850
+Wire Wire Line
+	1650 2850 1650 2450
+Wire Wire Line
+	1650 2450 1700 2450
+Wire Wire Line
+	1700 2850 1750 2850
+Wire Wire Line
+	1750 2850 1750 2450
+Wire Wire Line
+	1750 2450 1800 2450
+Wire Wire Line
+	1800 2850 1850 2850
+Wire Wire Line
+	1850 2850 1850 2450
+Wire Wire Line
+	1850 2450 1900 2450
+Wire Wire Line
+	1900 2850 1950 2850
+Wire Wire Line
+	1950 2850 1950 2450
+Wire Wire Line
+	1950 2450 2000 2450
+Wire Wire Line
+	2000 2850 2050 2850
+Wire Wire Line
+	2050 2850 2050 2450
+Wire Wire Line
+	2050 2450 2100 2450
+Wire Wire Line
+	2100 2850 2150 2850
+Wire Wire Line
+	2150 2850 2150 2450
+Wire Wire Line
+	2150 2450 2200 2450
+Wire Wire Line
+	2200 2850 2250 2850
+Wire Wire Line
+	2250 2850 2250 2450
+Wire Wire Line
+	2250 2450 2300 2450
+Wire Wire Line
+	2300 2850 2350 2850
+Wire Wire Line
+	2350 2850 2350 2450
+Wire Wire Line
+	2350 2450 2400 2450
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDD886B
+P 3000 2650
+AR Path="/5BD8431C/5BDD886B" Ref="RN?"  Part="1" 
+AR Path="/5BDD886B" Ref="RN6"  Part="1" 
+F 0 "RN6" H 3488 2696 50  0000 L CNN
+F 1 "R_Pack10" H 3488 2605 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 3575 2650 50  0001 C CNN
+F 3 "~" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2850 2550 2850
+Wire Wire Line
+	2550 2850 2550 2450
+Wire Wire Line
+	2550 2450 2600 2450
+Wire Wire Line
+	2600 2850 2650 2850
+Wire Wire Line
+	2650 2850 2650 2450
+Wire Wire Line
+	2650 2450 2700 2450
+Wire Wire Line
+	2700 2850 2750 2850
+Wire Wire Line
+	2750 2850 2750 2450
+Wire Wire Line
+	2750 2450 2800 2450
+Wire Wire Line
+	2800 2850 2850 2850
+Wire Wire Line
+	2850 2850 2850 2450
+Wire Wire Line
+	2850 2450 2900 2450
+Wire Wire Line
+	2900 2850 2950 2850
+Wire Wire Line
+	2950 2850 2950 2450
+Wire Wire Line
+	2950 2450 3000 2450
+Wire Wire Line
+	3000 2850 3050 2850
+Wire Wire Line
+	3050 2850 3050 2450
+Wire Wire Line
+	3050 2450 3100 2450
+Wire Wire Line
+	3100 2850 3150 2850
+Wire Wire Line
+	3150 2850 3150 2450
+Wire Wire Line
+	3150 2450 3200 2450
+Wire Wire Line
+	3200 2850 3250 2850
+Wire Wire Line
+	3250 2850 3250 2450
+Wire Wire Line
+	3250 2450 3300 2450
+Wire Wire Line
+	3300 2850 3350 2850
+Wire Wire Line
+	3350 2850 3350 2450
+Wire Wire Line
+	3350 2450 3400 2450
+Wire Wire Line
+	2400 2850 2450 2850
+Wire Wire Line
+	2450 2850 2450 2450
+Wire Wire Line
+	2450 2450 2500 2450
+Text GLabel 1500 2400 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	1500 2450 1500 2400
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDD88D8
+P 4400 2650
+AR Path="/5BD8431C/5BDD88D8" Ref="RN?"  Part="1" 
+AR Path="/5BDD88D8" Ref="RN10"  Part="1" 
+F 0 "RN10" H 4888 2696 50  0000 L CNN
+F 1 "R_Pack10" H 4888 2605 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 4975 2650 50  0001 C CNN
+F 3 "~" H 4400 2650 50  0001 C CNN
+	1    4400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2850 3950 2850
+Wire Wire Line
+	3950 2850 3950 2450
+Wire Wire Line
+	3950 2450 4000 2450
+Wire Wire Line
+	4000 2850 4050 2850
+Wire Wire Line
+	4050 2850 4050 2450
+Wire Wire Line
+	4050 2450 4100 2450
+Wire Wire Line
+	4100 2850 4150 2850
+Wire Wire Line
+	4150 2850 4150 2450
+Wire Wire Line
+	4150 2450 4200 2450
+Wire Wire Line
+	4200 2850 4250 2850
+Wire Wire Line
+	4250 2850 4250 2450
+Wire Wire Line
+	4250 2450 4300 2450
+Wire Wire Line
+	4300 2850 4350 2850
+Wire Wire Line
+	4350 2850 4350 2450
+Wire Wire Line
+	4350 2450 4400 2450
+Wire Wire Line
+	4400 2850 4450 2850
+Wire Wire Line
+	4450 2850 4450 2450
+Wire Wire Line
+	4450 2450 4500 2450
+Wire Wire Line
+	4500 2850 4550 2850
+Wire Wire Line
+	4550 2850 4550 2450
+Wire Wire Line
+	4550 2450 4600 2450
+Wire Wire Line
+	4600 2850 4650 2850
+Wire Wire Line
+	4650 2850 4650 2450
+Wire Wire Line
+	4650 2450 4700 2450
+Wire Wire Line
+	4700 2850 4750 2850
+Wire Wire Line
+	4750 2850 4750 2450
+Wire Wire Line
+	4750 2450 4800 2450
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDD88F9
+P 5400 2650
+AR Path="/5BD8431C/5BDD88F9" Ref="RN?"  Part="1" 
+AR Path="/5BDD88F9" Ref="RN14"  Part="1" 
+F 0 "RN14" H 5888 2696 50  0000 L CNN
+F 1 "R_Pack10" H 5888 2605 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 5975 2650 50  0001 C CNN
+F 3 "~" H 5400 2650 50  0001 C CNN
+	1    5400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2850 4950 2850
+Wire Wire Line
+	4950 2850 4950 2450
+Wire Wire Line
+	4950 2450 5000 2450
+Wire Wire Line
+	5000 2850 5050 2850
+Wire Wire Line
+	5050 2850 5050 2450
+Wire Wire Line
+	5050 2450 5100 2450
+Wire Wire Line
+	5100 2850 5150 2850
+Wire Wire Line
+	5150 2850 5150 2450
+Wire Wire Line
+	5150 2450 5200 2450
+Wire Wire Line
+	5200 2850 5250 2850
+Wire Wire Line
+	5250 2850 5250 2450
+Wire Wire Line
+	5250 2450 5300 2450
+Wire Wire Line
+	5300 2850 5350 2850
+Wire Wire Line
+	5350 2850 5350 2450
+Wire Wire Line
+	5350 2450 5400 2450
+Wire Wire Line
+	5400 2850 5450 2850
+Wire Wire Line
+	5450 2850 5450 2450
+Wire Wire Line
+	5450 2450 5500 2450
+Wire Wire Line
+	5500 2850 5550 2850
+Wire Wire Line
+	5550 2850 5550 2450
+Wire Wire Line
+	5550 2450 5600 2450
+Wire Wire Line
+	5600 2850 5650 2850
+Wire Wire Line
+	5650 2850 5650 2450
+Wire Wire Line
+	5650 2450 5700 2450
+Wire Wire Line
+	5700 2850 5750 2850
+Wire Wire Line
+	5750 2850 5750 2450
+Wire Wire Line
+	5750 2450 5800 2450
+Wire Wire Line
+	4800 2850 4850 2850
+Wire Wire Line
+	4850 2850 4850 2450
+Wire Wire Line
+	4850 2450 4900 2450
+Text GLabel 3900 2400 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	3900 2450 3900 2400
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDD8966
+P 6800 2650
+AR Path="/5BD8431C/5BDD8966" Ref="RN?"  Part="1" 
+AR Path="/5BDD8966" Ref="RN18"  Part="1" 
+F 0 "RN18" H 7288 2696 50  0000 L CNN
+F 1 "R_Pack10" H 7288 2605 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 7375 2650 50  0001 C CNN
+F 3 "~" H 6800 2650 50  0001 C CNN
+	1    6800 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2850 6350 2850
+Wire Wire Line
+	6350 2850 6350 2450
+Wire Wire Line
+	6350 2450 6400 2450
+Wire Wire Line
+	6400 2850 6450 2850
+Wire Wire Line
+	6450 2850 6450 2450
+Wire Wire Line
+	6450 2450 6500 2450
+Wire Wire Line
+	6500 2850 6550 2850
+Wire Wire Line
+	6550 2850 6550 2450
+Wire Wire Line
+	6550 2450 6600 2450
+Wire Wire Line
+	6600 2850 6650 2850
+Wire Wire Line
+	6650 2850 6650 2450
+Wire Wire Line
+	6650 2450 6700 2450
+Wire Wire Line
+	6700 2850 6750 2850
+Wire Wire Line
+	6750 2850 6750 2450
+Wire Wire Line
+	6750 2450 6800 2450
+Wire Wire Line
+	6800 2850 6850 2850
+Wire Wire Line
+	6850 2850 6850 2450
+Wire Wire Line
+	6850 2450 6900 2450
+Wire Wire Line
+	6900 2850 6950 2850
+Wire Wire Line
+	6950 2850 6950 2450
+Wire Wire Line
+	6950 2450 7000 2450
+Wire Wire Line
+	7000 2850 7050 2850
+Wire Wire Line
+	7050 2850 7050 2450
+Wire Wire Line
+	7050 2450 7100 2450
+Wire Wire Line
+	7100 2850 7150 2850
+Wire Wire Line
+	7150 2850 7150 2450
+Wire Wire Line
+	7150 2450 7200 2450
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDD8987
+P 7800 2650
+AR Path="/5BD8431C/5BDD8987" Ref="RN?"  Part="1" 
+AR Path="/5BDD8987" Ref="RN22"  Part="1" 
+F 0 "RN22" H 8288 2696 50  0000 L CNN
+F 1 "R_Pack10" H 8288 2605 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 8375 2650 50  0001 C CNN
+F 3 "~" H 7800 2650 50  0001 C CNN
+	1    7800 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2850 7350 2850
+Wire Wire Line
+	7350 2850 7350 2450
+Wire Wire Line
+	7350 2450 7400 2450
+Wire Wire Line
+	7400 2850 7450 2850
+Wire Wire Line
+	7450 2850 7450 2450
+Wire Wire Line
+	7450 2450 7500 2450
+Wire Wire Line
+	7500 2850 7550 2850
+Wire Wire Line
+	7550 2850 7550 2450
+Wire Wire Line
+	7550 2450 7600 2450
+Wire Wire Line
+	7600 2850 7650 2850
+Wire Wire Line
+	7650 2850 7650 2450
+Wire Wire Line
+	7650 2450 7700 2450
+Wire Wire Line
+	7700 2850 7750 2850
+Wire Wire Line
+	7750 2850 7750 2450
+Wire Wire Line
+	7750 2450 7800 2450
+Wire Wire Line
+	7800 2850 7850 2850
+Wire Wire Line
+	7850 2850 7850 2450
+Wire Wire Line
+	7850 2450 7900 2450
+Wire Wire Line
+	7900 2850 7950 2850
+Wire Wire Line
+	7950 2850 7950 2450
+Wire Wire Line
+	7950 2450 8000 2450
+Wire Wire Line
+	8000 2850 8050 2850
+Wire Wire Line
+	8050 2850 8050 2450
+Wire Wire Line
+	8050 2450 8100 2450
+Wire Wire Line
+	8100 2850 8150 2850
+Wire Wire Line
+	8150 2850 8150 2450
+Wire Wire Line
+	8150 2450 8200 2450
+Wire Wire Line
+	7200 2850 7250 2850
+Wire Wire Line
+	7250 2850 7250 2450
+Wire Wire Line
+	7250 2450 7300 2450
+Text GLabel 6300 2400 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	6300 2450 6300 2400
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDD89CF
+P 9200 2650
+AR Path="/5BD8431C/5BDD89CF" Ref="RN?"  Part="1" 
+AR Path="/5BDD89CF" Ref="RN26"  Part="1" 
+F 0 "RN26" H 9688 2696 50  0000 L CNN
+F 1 "R_Pack10" H 9688 2605 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 9775 2650 50  0001 C CNN
+F 3 "~" H 9200 2650 50  0001 C CNN
+	1    9200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2850 8750 2850
+Wire Wire Line
+	8750 2850 8750 2450
+Wire Wire Line
+	8750 2450 8800 2450
+Wire Wire Line
+	8800 2850 8850 2850
+Wire Wire Line
+	8850 2850 8850 2450
+Wire Wire Line
+	8850 2450 8900 2450
+Wire Wire Line
+	8900 2850 8950 2850
+Wire Wire Line
+	8950 2850 8950 2450
+Wire Wire Line
+	8950 2450 9000 2450
+Wire Wire Line
+	9000 2850 9050 2850
+Wire Wire Line
+	9050 2850 9050 2450
+Wire Wire Line
+	9050 2450 9100 2450
+Wire Wire Line
+	9100 2850 9150 2850
+Wire Wire Line
+	9150 2850 9150 2450
+Wire Wire Line
+	9150 2450 9200 2450
+Wire Wire Line
+	9200 2850 9250 2850
+Wire Wire Line
+	9250 2850 9250 2450
+Wire Wire Line
+	9250 2450 9300 2450
+Wire Wire Line
+	9300 2850 9350 2850
+Wire Wire Line
+	9350 2850 9350 2450
+Wire Wire Line
+	9350 2450 9400 2450
+Wire Wire Line
+	9400 2850 9450 2850
+Wire Wire Line
+	9450 2850 9450 2450
+Wire Wire Line
+	9450 2450 9500 2450
+Wire Wire Line
+	9500 2850 9550 2850
+Wire Wire Line
+	9550 2850 9550 2450
+Wire Wire Line
+	9550 2450 9600 2450
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BDD89F0
+P 10200 2650
+AR Path="/5BD8431C/5BDD89F0" Ref="RN?"  Part="1" 
+AR Path="/5BDD89F0" Ref="RN30"  Part="1" 
+F 0 "RN30" H 10688 2696 50  0000 L CNN
+F 1 "R_Pack10" H 10688 2605 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 10775 2650 50  0001 C CNN
+F 3 "~" H 10200 2650 50  0001 C CNN
+	1    10200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 2850 9750 2850
+Wire Wire Line
+	9750 2850 9750 2450
+Wire Wire Line
+	9750 2450 9800 2450
+Wire Wire Line
+	9800 2850 9850 2850
+Wire Wire Line
+	9850 2850 9850 2450
+Wire Wire Line
+	9850 2450 9900 2450
+Wire Wire Line
+	9900 2850 9950 2850
+Wire Wire Line
+	9950 2850 9950 2450
+Wire Wire Line
+	9950 2450 10000 2450
+Wire Wire Line
+	10000 2850 10050 2850
+Wire Wire Line
+	10050 2850 10050 2450
+Wire Wire Line
+	10050 2450 10100 2450
+Wire Wire Line
+	10100 2850 10150 2850
+Wire Wire Line
+	10150 2850 10150 2450
+Wire Wire Line
+	10150 2450 10200 2450
+Wire Wire Line
+	10200 2850 10250 2850
+Wire Wire Line
+	10250 2850 10250 2450
+Wire Wire Line
+	10250 2450 10300 2450
+Wire Wire Line
+	10300 2850 10350 2850
+Wire Wire Line
+	10350 2850 10350 2450
+Wire Wire Line
+	10350 2450 10400 2450
+Wire Wire Line
+	10400 2850 10450 2850
+Wire Wire Line
+	10450 2850 10450 2450
+Wire Wire Line
+	10450 2450 10500 2450
+Wire Wire Line
+	10500 2850 10550 2850
+Wire Wire Line
+	10550 2850 10550 2450
+Wire Wire Line
+	10550 2450 10600 2450
+Wire Wire Line
+	9600 2850 9650 2850
+Wire Wire Line
+	9650 2850 9650 2450
+Wire Wire Line
+	9650 2450 9700 2450
+Text GLabel 8700 2400 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	8700 2450 8700 2400
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E2A2
+P 2000 4200
+AR Path="/5BD8431C/5BE1E2A2" Ref="RN?"  Part="1" 
+AR Path="/5BE1E2A2" Ref="RN4"  Part="1" 
+F 0 "RN4" H 2488 4246 50  0000 L CNN
+F 1 "R_Pack10" H 2488 4155 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 2575 4200 50  0001 C CNN
+F 3 "~" H 2000 4200 50  0001 C CNN
+	1    2000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4400 1550 4400
+Wire Wire Line
+	1550 4400 1550 4000
+Wire Wire Line
+	1550 4000 1600 4000
+Wire Wire Line
+	1600 4400 1650 4400
+Wire Wire Line
+	1650 4400 1650 4000
+Wire Wire Line
+	1650 4000 1700 4000
+Wire Wire Line
+	1700 4400 1750 4400
+Wire Wire Line
+	1750 4400 1750 4000
+Wire Wire Line
+	1750 4000 1800 4000
+Wire Wire Line
+	1800 4400 1850 4400
+Wire Wire Line
+	1850 4400 1850 4000
+Wire Wire Line
+	1850 4000 1900 4000
+Wire Wire Line
+	1900 4400 1950 4400
+Wire Wire Line
+	1950 4400 1950 4000
+Wire Wire Line
+	1950 4000 2000 4000
+Wire Wire Line
+	2000 4400 2050 4400
+Wire Wire Line
+	2050 4400 2050 4000
+Wire Wire Line
+	2050 4000 2100 4000
+Wire Wire Line
+	2100 4400 2150 4400
+Wire Wire Line
+	2150 4400 2150 4000
+Wire Wire Line
+	2150 4000 2200 4000
+Wire Wire Line
+	2200 4400 2250 4400
+Wire Wire Line
+	2250 4400 2250 4000
+Wire Wire Line
+	2250 4000 2300 4000
+Wire Wire Line
+	2300 4400 2350 4400
+Wire Wire Line
+	2350 4400 2350 4000
+Wire Wire Line
+	2350 4000 2400 4000
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E2C3
+P 3000 4200
+AR Path="/5BD8431C/5BE1E2C3" Ref="RN?"  Part="1" 
+AR Path="/5BE1E2C3" Ref="RN7"  Part="1" 
+F 0 "RN7" H 3488 4246 50  0000 L CNN
+F 1 "R_Pack10" H 3488 4155 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 3575 4200 50  0001 C CNN
+F 3 "~" H 3000 4200 50  0001 C CNN
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4400 2550 4400
+Wire Wire Line
+	2550 4400 2550 4000
+Wire Wire Line
+	2550 4000 2600 4000
+Wire Wire Line
+	2600 4400 2650 4400
+Wire Wire Line
+	2650 4400 2650 4000
+Wire Wire Line
+	2650 4000 2700 4000
+Wire Wire Line
+	2700 4400 2750 4400
+Wire Wire Line
+	2750 4400 2750 4000
+Wire Wire Line
+	2750 4000 2800 4000
+Wire Wire Line
+	2800 4400 2850 4400
+Wire Wire Line
+	2850 4400 2850 4000
+Wire Wire Line
+	2850 4000 2900 4000
+Wire Wire Line
+	2900 4400 2950 4400
+Wire Wire Line
+	2950 4400 2950 4000
+Wire Wire Line
+	2950 4000 3000 4000
+Wire Wire Line
+	3000 4400 3050 4400
+Wire Wire Line
+	3050 4400 3050 4000
+Wire Wire Line
+	3050 4000 3100 4000
+Wire Wire Line
+	3100 4400 3150 4400
+Wire Wire Line
+	3150 4400 3150 4000
+Wire Wire Line
+	3150 4000 3200 4000
+Wire Wire Line
+	3200 4400 3250 4400
+Wire Wire Line
+	3250 4400 3250 4000
+Wire Wire Line
+	3250 4000 3300 4000
+Wire Wire Line
+	3300 4400 3350 4400
+Wire Wire Line
+	3350 4400 3350 4000
+Wire Wire Line
+	3350 4000 3400 4000
+Wire Wire Line
+	2400 4400 2450 4400
+Wire Wire Line
+	2450 4400 2450 4000
+Wire Wire Line
+	2450 4000 2500 4000
+Text GLabel 1500 3950 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	1500 4000 1500 3950
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E330
+P 4400 4200
+AR Path="/5BD8431C/5BE1E330" Ref="RN?"  Part="1" 
+AR Path="/5BE1E330" Ref="RN11"  Part="1" 
+F 0 "RN11" H 4888 4246 50  0000 L CNN
+F 1 "R_Pack10" H 4888 4155 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 4975 4200 50  0001 C CNN
+F 3 "~" H 4400 4200 50  0001 C CNN
+	1    4400 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4400 3950 4400
+Wire Wire Line
+	3950 4400 3950 4000
+Wire Wire Line
+	3950 4000 4000 4000
+Wire Wire Line
+	4000 4400 4050 4400
+Wire Wire Line
+	4050 4400 4050 4000
+Wire Wire Line
+	4050 4000 4100 4000
+Wire Wire Line
+	4100 4400 4150 4400
+Wire Wire Line
+	4150 4400 4150 4000
+Wire Wire Line
+	4150 4000 4200 4000
+Wire Wire Line
+	4200 4400 4250 4400
+Wire Wire Line
+	4250 4400 4250 4000
+Wire Wire Line
+	4250 4000 4300 4000
+Wire Wire Line
+	4300 4400 4350 4400
+Wire Wire Line
+	4350 4400 4350 4000
+Wire Wire Line
+	4350 4000 4400 4000
+Wire Wire Line
+	4400 4400 4450 4400
+Wire Wire Line
+	4450 4400 4450 4000
+Wire Wire Line
+	4450 4000 4500 4000
+Wire Wire Line
+	4500 4400 4550 4400
+Wire Wire Line
+	4550 4400 4550 4000
+Wire Wire Line
+	4550 4000 4600 4000
+Wire Wire Line
+	4600 4400 4650 4400
+Wire Wire Line
+	4650 4400 4650 4000
+Wire Wire Line
+	4650 4000 4700 4000
+Wire Wire Line
+	4700 4400 4750 4400
+Wire Wire Line
+	4750 4400 4750 4000
+Wire Wire Line
+	4750 4000 4800 4000
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E351
+P 5400 4200
+AR Path="/5BD8431C/5BE1E351" Ref="RN?"  Part="1" 
+AR Path="/5BE1E351" Ref="RN15"  Part="1" 
+F 0 "RN15" H 5888 4246 50  0000 L CNN
+F 1 "R_Pack10" H 5888 4155 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 5975 4200 50  0001 C CNN
+F 3 "~" H 5400 4200 50  0001 C CNN
+	1    5400 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4400 4950 4400
+Wire Wire Line
+	4950 4400 4950 4000
+Wire Wire Line
+	4950 4000 5000 4000
+Wire Wire Line
+	5000 4400 5050 4400
+Wire Wire Line
+	5050 4400 5050 4000
+Wire Wire Line
+	5050 4000 5100 4000
+Wire Wire Line
+	5100 4400 5150 4400
+Wire Wire Line
+	5150 4400 5150 4000
+Wire Wire Line
+	5150 4000 5200 4000
+Wire Wire Line
+	5200 4400 5250 4400
+Wire Wire Line
+	5250 4400 5250 4000
+Wire Wire Line
+	5250 4000 5300 4000
+Wire Wire Line
+	5300 4400 5350 4400
+Wire Wire Line
+	5350 4400 5350 4000
+Wire Wire Line
+	5350 4000 5400 4000
+Wire Wire Line
+	5400 4400 5450 4400
+Wire Wire Line
+	5450 4400 5450 4000
+Wire Wire Line
+	5450 4000 5500 4000
+Wire Wire Line
+	5500 4400 5550 4400
+Wire Wire Line
+	5550 4400 5550 4000
+Wire Wire Line
+	5550 4000 5600 4000
+Wire Wire Line
+	5600 4400 5650 4400
+Wire Wire Line
+	5650 4400 5650 4000
+Wire Wire Line
+	5650 4000 5700 4000
+Wire Wire Line
+	5700 4400 5750 4400
+Wire Wire Line
+	5750 4400 5750 4000
+Wire Wire Line
+	5750 4000 5800 4000
+Wire Wire Line
+	4800 4400 4850 4400
+Wire Wire Line
+	4850 4400 4850 4000
+Wire Wire Line
+	4850 4000 4900 4000
+Text GLabel 3900 3950 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	3900 4000 3900 3950
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E3BE
+P 6800 4200
+AR Path="/5BD8431C/5BE1E3BE" Ref="RN?"  Part="1" 
+AR Path="/5BE1E3BE" Ref="RN19"  Part="1" 
+F 0 "RN19" H 7288 4246 50  0000 L CNN
+F 1 "R_Pack10" H 7288 4155 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 7375 4200 50  0001 C CNN
+F 3 "~" H 6800 4200 50  0001 C CNN
+	1    6800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4400 6350 4400
+Wire Wire Line
+	6350 4400 6350 4000
+Wire Wire Line
+	6350 4000 6400 4000
+Wire Wire Line
+	6400 4400 6450 4400
+Wire Wire Line
+	6450 4400 6450 4000
+Wire Wire Line
+	6450 4000 6500 4000
+Wire Wire Line
+	6500 4400 6550 4400
+Wire Wire Line
+	6550 4400 6550 4000
+Wire Wire Line
+	6550 4000 6600 4000
+Wire Wire Line
+	6600 4400 6650 4400
+Wire Wire Line
+	6650 4400 6650 4000
+Wire Wire Line
+	6650 4000 6700 4000
+Wire Wire Line
+	6700 4400 6750 4400
+Wire Wire Line
+	6750 4400 6750 4000
+Wire Wire Line
+	6750 4000 6800 4000
+Wire Wire Line
+	6800 4400 6850 4400
+Wire Wire Line
+	6850 4400 6850 4000
+Wire Wire Line
+	6850 4000 6900 4000
+Wire Wire Line
+	6900 4400 6950 4400
+Wire Wire Line
+	6950 4400 6950 4000
+Wire Wire Line
+	6950 4000 7000 4000
+Wire Wire Line
+	7000 4400 7050 4400
+Wire Wire Line
+	7050 4400 7050 4000
+Wire Wire Line
+	7050 4000 7100 4000
+Wire Wire Line
+	7100 4400 7150 4400
+Wire Wire Line
+	7150 4400 7150 4000
+Wire Wire Line
+	7150 4000 7200 4000
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E3DF
+P 7800 4200
+AR Path="/5BD8431C/5BE1E3DF" Ref="RN?"  Part="1" 
+AR Path="/5BE1E3DF" Ref="RN23"  Part="1" 
+F 0 "RN23" H 8288 4246 50  0000 L CNN
+F 1 "R_Pack10" H 8288 4155 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 8375 4200 50  0001 C CNN
+F 3 "~" H 7800 4200 50  0001 C CNN
+	1    7800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4400 7350 4400
+Wire Wire Line
+	7350 4400 7350 4000
+Wire Wire Line
+	7350 4000 7400 4000
+Wire Wire Line
+	7400 4400 7450 4400
+Wire Wire Line
+	7450 4400 7450 4000
+Wire Wire Line
+	7450 4000 7500 4000
+Wire Wire Line
+	7500 4400 7550 4400
+Wire Wire Line
+	7550 4400 7550 4000
+Wire Wire Line
+	7550 4000 7600 4000
+Wire Wire Line
+	7600 4400 7650 4400
+Wire Wire Line
+	7650 4400 7650 4000
+Wire Wire Line
+	7650 4000 7700 4000
+Wire Wire Line
+	7700 4400 7750 4400
+Wire Wire Line
+	7750 4400 7750 4000
+Wire Wire Line
+	7750 4000 7800 4000
+Wire Wire Line
+	7800 4400 7850 4400
+Wire Wire Line
+	7850 4400 7850 4000
+Wire Wire Line
+	7850 4000 7900 4000
+Wire Wire Line
+	7900 4400 7950 4400
+Wire Wire Line
+	7950 4400 7950 4000
+Wire Wire Line
+	7950 4000 8000 4000
+Wire Wire Line
+	8000 4400 8050 4400
+Wire Wire Line
+	8050 4400 8050 4000
+Wire Wire Line
+	8050 4000 8100 4000
+Wire Wire Line
+	8100 4400 8150 4400
+Wire Wire Line
+	8150 4400 8150 4000
+Wire Wire Line
+	8150 4000 8200 4000
+Wire Wire Line
+	7200 4400 7250 4400
+Wire Wire Line
+	7250 4400 7250 4000
+Wire Wire Line
+	7250 4000 7300 4000
+Text GLabel 6300 3950 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	6300 4000 6300 3950
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E427
+P 9200 4200
+AR Path="/5BD8431C/5BE1E427" Ref="RN?"  Part="1" 
+AR Path="/5BE1E427" Ref="RN27"  Part="1" 
+F 0 "RN27" H 9688 4246 50  0000 L CNN
+F 1 "R_Pack10" H 9688 4155 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 9775 4200 50  0001 C CNN
+F 3 "~" H 9200 4200 50  0001 C CNN
+	1    9200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4400 8750 4400
+Wire Wire Line
+	8750 4400 8750 4000
+Wire Wire Line
+	8750 4000 8800 4000
+Wire Wire Line
+	8800 4400 8850 4400
+Wire Wire Line
+	8850 4400 8850 4000
+Wire Wire Line
+	8850 4000 8900 4000
+Wire Wire Line
+	8900 4400 8950 4400
+Wire Wire Line
+	8950 4400 8950 4000
+Wire Wire Line
+	8950 4000 9000 4000
+Wire Wire Line
+	9000 4400 9050 4400
+Wire Wire Line
+	9050 4400 9050 4000
+Wire Wire Line
+	9050 4000 9100 4000
+Wire Wire Line
+	9100 4400 9150 4400
+Wire Wire Line
+	9150 4400 9150 4000
+Wire Wire Line
+	9150 4000 9200 4000
+Wire Wire Line
+	9200 4400 9250 4400
+Wire Wire Line
+	9250 4400 9250 4000
+Wire Wire Line
+	9250 4000 9300 4000
+Wire Wire Line
+	9300 4400 9350 4400
+Wire Wire Line
+	9350 4400 9350 4000
+Wire Wire Line
+	9350 4000 9400 4000
+Wire Wire Line
+	9400 4400 9450 4400
+Wire Wire Line
+	9450 4400 9450 4000
+Wire Wire Line
+	9450 4000 9500 4000
+Wire Wire Line
+	9500 4400 9550 4400
+Wire Wire Line
+	9550 4400 9550 4000
+Wire Wire Line
+	9550 4000 9600 4000
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E448
+P 10200 4200
+AR Path="/5BD8431C/5BE1E448" Ref="RN?"  Part="1" 
+AR Path="/5BE1E448" Ref="RN31"  Part="1" 
+F 0 "RN31" H 10688 4246 50  0000 L CNN
+F 1 "R_Pack10" H 10688 4155 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 10775 4200 50  0001 C CNN
+F 3 "~" H 10200 4200 50  0001 C CNN
+	1    10200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4400 9750 4400
+Wire Wire Line
+	9750 4400 9750 4000
+Wire Wire Line
+	9750 4000 9800 4000
+Wire Wire Line
+	9800 4400 9850 4400
+Wire Wire Line
+	9850 4400 9850 4000
+Wire Wire Line
+	9850 4000 9900 4000
+Wire Wire Line
+	9900 4400 9950 4400
+Wire Wire Line
+	9950 4400 9950 4000
+Wire Wire Line
+	9950 4000 10000 4000
+Wire Wire Line
+	10000 4400 10050 4400
+Wire Wire Line
+	10050 4400 10050 4000
+Wire Wire Line
+	10050 4000 10100 4000
+Wire Wire Line
+	10100 4400 10150 4400
+Wire Wire Line
+	10150 4400 10150 4000
+Wire Wire Line
+	10150 4000 10200 4000
+Wire Wire Line
+	10200 4400 10250 4400
+Wire Wire Line
+	10250 4400 10250 4000
+Wire Wire Line
+	10250 4000 10300 4000
+Wire Wire Line
+	10300 4400 10350 4400
+Wire Wire Line
+	10350 4400 10350 4000
+Wire Wire Line
+	10350 4000 10400 4000
+Wire Wire Line
+	10400 4400 10450 4400
+Wire Wire Line
+	10450 4400 10450 4000
+Wire Wire Line
+	10450 4000 10500 4000
+Wire Wire Line
+	10500 4400 10550 4400
+Wire Wire Line
+	10550 4400 10550 4000
+Wire Wire Line
+	10550 4000 10600 4000
+Wire Wire Line
+	9600 4400 9650 4400
+Wire Wire Line
+	9650 4400 9650 4000
+Wire Wire Line
+	9650 4000 9700 4000
+Text GLabel 8700 3950 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	8700 4000 8700 3950
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E490
+P 2000 5800
+AR Path="/5BD8431C/5BE1E490" Ref="RN?"  Part="1" 
+AR Path="/5BE1E490" Ref="RN5"  Part="1" 
+F 0 "RN5" H 2488 5846 50  0000 L CNN
+F 1 "R_Pack10" H 2488 5755 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 2575 5800 50  0001 C CNN
+F 3 "~" H 2000 5800 50  0001 C CNN
+	1    2000 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6000 1550 6000
+Wire Wire Line
+	1550 6000 1550 5600
+Wire Wire Line
+	1550 5600 1600 5600
+Wire Wire Line
+	1600 6000 1650 6000
+Wire Wire Line
+	1650 6000 1650 5600
+Wire Wire Line
+	1650 5600 1700 5600
+Wire Wire Line
+	1700 6000 1750 6000
+Wire Wire Line
+	1750 6000 1750 5600
+Wire Wire Line
+	1750 5600 1800 5600
+Wire Wire Line
+	1800 6000 1850 6000
+Wire Wire Line
+	1850 6000 1850 5600
+Wire Wire Line
+	1850 5600 1900 5600
+Wire Wire Line
+	1900 6000 1950 6000
+Wire Wire Line
+	1950 6000 1950 5600
+Wire Wire Line
+	1950 5600 2000 5600
+Wire Wire Line
+	2000 6000 2050 6000
+Wire Wire Line
+	2050 6000 2050 5600
+Wire Wire Line
+	2050 5600 2100 5600
+Wire Wire Line
+	2100 6000 2150 6000
+Wire Wire Line
+	2150 6000 2150 5600
+Wire Wire Line
+	2150 5600 2200 5600
+Wire Wire Line
+	2200 6000 2250 6000
+Wire Wire Line
+	2250 6000 2250 5600
+Wire Wire Line
+	2250 5600 2300 5600
+Wire Wire Line
+	2300 6000 2350 6000
+Wire Wire Line
+	2350 6000 2350 5600
+Wire Wire Line
+	2350 5600 2400 5600
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E4B1
+P 3000 5800
+AR Path="/5BD8431C/5BE1E4B1" Ref="RN?"  Part="1" 
+AR Path="/5BE1E4B1" Ref="RN8"  Part="1" 
+F 0 "RN8" H 3488 5846 50  0000 L CNN
+F 1 "R_Pack10" H 3488 5755 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 3575 5800 50  0001 C CNN
+F 3 "~" H 3000 5800 50  0001 C CNN
+	1    3000 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6000 2550 6000
+Wire Wire Line
+	2550 6000 2550 5600
+Wire Wire Line
+	2550 5600 2600 5600
+Wire Wire Line
+	2600 6000 2650 6000
+Wire Wire Line
+	2650 6000 2650 5600
+Wire Wire Line
+	2650 5600 2700 5600
+Wire Wire Line
+	2700 6000 2750 6000
+Wire Wire Line
+	2750 6000 2750 5600
+Wire Wire Line
+	2750 5600 2800 5600
+Wire Wire Line
+	2800 6000 2850 6000
+Wire Wire Line
+	2850 6000 2850 5600
+Wire Wire Line
+	2850 5600 2900 5600
+Wire Wire Line
+	2900 6000 2950 6000
+Wire Wire Line
+	2950 6000 2950 5600
+Wire Wire Line
+	2950 5600 3000 5600
+Wire Wire Line
+	3000 6000 3050 6000
+Wire Wire Line
+	3050 6000 3050 5600
+Wire Wire Line
+	3050 5600 3100 5600
+Wire Wire Line
+	3100 6000 3150 6000
+Wire Wire Line
+	3150 6000 3150 5600
+Wire Wire Line
+	3150 5600 3200 5600
+Wire Wire Line
+	3200 6000 3250 6000
+Wire Wire Line
+	3250 6000 3250 5600
+Wire Wire Line
+	3250 5600 3300 5600
+Wire Wire Line
+	3300 6000 3350 6000
+Wire Wire Line
+	3350 6000 3350 5600
+Wire Wire Line
+	3350 5600 3400 5600
+Wire Wire Line
+	2400 6000 2450 6000
+Wire Wire Line
+	2450 6000 2450 5600
+Wire Wire Line
+	2450 5600 2500 5600
+Text GLabel 1500 5550 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	1500 5600 1500 5550
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E4F9
+P 4400 5800
+AR Path="/5BD8431C/5BE1E4F9" Ref="RN?"  Part="1" 
+AR Path="/5BE1E4F9" Ref="RN12"  Part="1" 
+F 0 "RN12" H 4888 5846 50  0000 L CNN
+F 1 "R_Pack10" H 4888 5755 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 4975 5800 50  0001 C CNN
+F 3 "~" H 4400 5800 50  0001 C CNN
+	1    4400 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6000 3950 6000
+Wire Wire Line
+	3950 6000 3950 5600
+Wire Wire Line
+	3950 5600 4000 5600
+Wire Wire Line
+	4000 6000 4050 6000
+Wire Wire Line
+	4050 6000 4050 5600
+Wire Wire Line
+	4050 5600 4100 5600
+Wire Wire Line
+	4100 6000 4150 6000
+Wire Wire Line
+	4150 6000 4150 5600
+Wire Wire Line
+	4150 5600 4200 5600
+Wire Wire Line
+	4200 6000 4250 6000
+Wire Wire Line
+	4250 6000 4250 5600
+Wire Wire Line
+	4250 5600 4300 5600
+Wire Wire Line
+	4300 6000 4350 6000
+Wire Wire Line
+	4350 6000 4350 5600
+Wire Wire Line
+	4350 5600 4400 5600
+Wire Wire Line
+	4400 6000 4450 6000
+Wire Wire Line
+	4450 6000 4450 5600
+Wire Wire Line
+	4450 5600 4500 5600
+Wire Wire Line
+	4500 6000 4550 6000
+Wire Wire Line
+	4550 6000 4550 5600
+Wire Wire Line
+	4550 5600 4600 5600
+Wire Wire Line
+	4600 6000 4650 6000
+Wire Wire Line
+	4650 6000 4650 5600
+Wire Wire Line
+	4650 5600 4700 5600
+Wire Wire Line
+	4700 6000 4750 6000
+Wire Wire Line
+	4750 6000 4750 5600
+Wire Wire Line
+	4750 5600 4800 5600
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E51A
+P 5400 5800
+AR Path="/5BD8431C/5BE1E51A" Ref="RN?"  Part="1" 
+AR Path="/5BE1E51A" Ref="RN16"  Part="1" 
+F 0 "RN16" H 5888 5846 50  0000 L CNN
+F 1 "R_Pack10" H 5888 5755 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 5975 5800 50  0001 C CNN
+F 3 "~" H 5400 5800 50  0001 C CNN
+	1    5400 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6000 4950 6000
+Wire Wire Line
+	4950 6000 4950 5600
+Wire Wire Line
+	4950 5600 5000 5600
+Wire Wire Line
+	5000 6000 5050 6000
+Wire Wire Line
+	5050 6000 5050 5600
+Wire Wire Line
+	5050 5600 5100 5600
+Wire Wire Line
+	5100 6000 5150 6000
+Wire Wire Line
+	5150 6000 5150 5600
+Wire Wire Line
+	5150 5600 5200 5600
+Wire Wire Line
+	5200 6000 5250 6000
+Wire Wire Line
+	5250 6000 5250 5600
+Wire Wire Line
+	5250 5600 5300 5600
+Wire Wire Line
+	5300 6000 5350 6000
+Wire Wire Line
+	5350 6000 5350 5600
+Wire Wire Line
+	5350 5600 5400 5600
+Wire Wire Line
+	5400 6000 5450 6000
+Wire Wire Line
+	5450 6000 5450 5600
+Wire Wire Line
+	5450 5600 5500 5600
+Wire Wire Line
+	5500 6000 5550 6000
+Wire Wire Line
+	5550 6000 5550 5600
+Wire Wire Line
+	5550 5600 5600 5600
+Wire Wire Line
+	5600 6000 5650 6000
+Wire Wire Line
+	5650 6000 5650 5600
+Wire Wire Line
+	5650 5600 5700 5600
+Wire Wire Line
+	5700 6000 5750 6000
+Wire Wire Line
+	5750 6000 5750 5600
+Wire Wire Line
+	5750 5600 5800 5600
+Wire Wire Line
+	4800 6000 4850 6000
+Wire Wire Line
+	4850 6000 4850 5600
+Wire Wire Line
+	4850 5600 4900 5600
+Text GLabel 3900 5550 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	3900 5600 3900 5550
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E562
+P 6800 5800
+AR Path="/5BD8431C/5BE1E562" Ref="RN?"  Part="1" 
+AR Path="/5BE1E562" Ref="RN20"  Part="1" 
+F 0 "RN20" H 7288 5846 50  0000 L CNN
+F 1 "R_Pack10" H 7288 5755 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 7375 5800 50  0001 C CNN
+F 3 "~" H 6800 5800 50  0001 C CNN
+	1    6800 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 6000 6350 6000
+Wire Wire Line
+	6350 6000 6350 5600
+Wire Wire Line
+	6350 5600 6400 5600
+Wire Wire Line
+	6400 6000 6450 6000
+Wire Wire Line
+	6450 6000 6450 5600
+Wire Wire Line
+	6450 5600 6500 5600
+Wire Wire Line
+	6500 6000 6550 6000
+Wire Wire Line
+	6550 6000 6550 5600
+Wire Wire Line
+	6550 5600 6600 5600
+Wire Wire Line
+	6600 6000 6650 6000
+Wire Wire Line
+	6650 6000 6650 5600
+Wire Wire Line
+	6650 5600 6700 5600
+Wire Wire Line
+	6700 6000 6750 6000
+Wire Wire Line
+	6750 6000 6750 5600
+Wire Wire Line
+	6750 5600 6800 5600
+Wire Wire Line
+	6800 6000 6850 6000
+Wire Wire Line
+	6850 6000 6850 5600
+Wire Wire Line
+	6850 5600 6900 5600
+Wire Wire Line
+	6900 6000 6950 6000
+Wire Wire Line
+	6950 6000 6950 5600
+Wire Wire Line
+	6950 5600 7000 5600
+Wire Wire Line
+	7000 6000 7050 6000
+Wire Wire Line
+	7050 6000 7050 5600
+Wire Wire Line
+	7050 5600 7100 5600
+Wire Wire Line
+	7100 6000 7150 6000
+Wire Wire Line
+	7150 6000 7150 5600
+Wire Wire Line
+	7150 5600 7200 5600
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E583
+P 7800 5800
+AR Path="/5BD8431C/5BE1E583" Ref="RN?"  Part="1" 
+AR Path="/5BE1E583" Ref="RN24"  Part="1" 
+F 0 "RN24" H 8288 5846 50  0000 L CNN
+F 1 "R_Pack10" H 8288 5755 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 8375 5800 50  0001 C CNN
+F 3 "~" H 7800 5800 50  0001 C CNN
+	1    7800 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 6000 7350 6000
+Wire Wire Line
+	7350 6000 7350 5600
+Wire Wire Line
+	7350 5600 7400 5600
+Wire Wire Line
+	7400 6000 7450 6000
+Wire Wire Line
+	7450 6000 7450 5600
+Wire Wire Line
+	7450 5600 7500 5600
+Wire Wire Line
+	7500 6000 7550 6000
+Wire Wire Line
+	7550 6000 7550 5600
+Wire Wire Line
+	7550 5600 7600 5600
+Wire Wire Line
+	7600 6000 7650 6000
+Wire Wire Line
+	7650 6000 7650 5600
+Wire Wire Line
+	7650 5600 7700 5600
+Wire Wire Line
+	7700 6000 7750 6000
+Wire Wire Line
+	7750 6000 7750 5600
+Wire Wire Line
+	7750 5600 7800 5600
+Wire Wire Line
+	7800 6000 7850 6000
+Wire Wire Line
+	7850 6000 7850 5600
+Wire Wire Line
+	7850 5600 7900 5600
+Wire Wire Line
+	7900 6000 7950 6000
+Wire Wire Line
+	7950 6000 7950 5600
+Wire Wire Line
+	7950 5600 8000 5600
+Wire Wire Line
+	8000 6000 8050 6000
+Wire Wire Line
+	8050 6000 8050 5600
+Wire Wire Line
+	8050 5600 8100 5600
+Wire Wire Line
+	8100 6000 8150 6000
+Wire Wire Line
+	8150 6000 8150 5600
+Wire Wire Line
+	8150 5600 8200 5600
+Wire Wire Line
+	7200 6000 7250 6000
+Wire Wire Line
+	7250 6000 7250 5600
+Wire Wire Line
+	7250 5600 7300 5600
+Text GLabel 6300 5550 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	6300 5600 6300 5550
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E5CB
+P 9200 5800
+AR Path="/5BD8431C/5BE1E5CB" Ref="RN?"  Part="1" 
+AR Path="/5BE1E5CB" Ref="RN28"  Part="1" 
+F 0 "RN28" H 9688 5846 50  0000 L CNN
+F 1 "R_Pack10" H 9688 5755 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 9775 5800 50  0001 C CNN
+F 3 "~" H 9200 5800 50  0001 C CNN
+	1    9200 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 6000 8750 6000
+Wire Wire Line
+	8750 6000 8750 5600
+Wire Wire Line
+	8750 5600 8800 5600
+Wire Wire Line
+	8800 6000 8850 6000
+Wire Wire Line
+	8850 6000 8850 5600
+Wire Wire Line
+	8850 5600 8900 5600
+Wire Wire Line
+	8900 6000 8950 6000
+Wire Wire Line
+	8950 6000 8950 5600
+Wire Wire Line
+	8950 5600 9000 5600
+Wire Wire Line
+	9000 6000 9050 6000
+Wire Wire Line
+	9050 6000 9050 5600
+Wire Wire Line
+	9050 5600 9100 5600
+Wire Wire Line
+	9100 6000 9150 6000
+Wire Wire Line
+	9150 6000 9150 5600
+Wire Wire Line
+	9150 5600 9200 5600
+Wire Wire Line
+	9200 6000 9250 6000
+Wire Wire Line
+	9250 6000 9250 5600
+Wire Wire Line
+	9250 5600 9300 5600
+Wire Wire Line
+	9300 6000 9350 6000
+Wire Wire Line
+	9350 6000 9350 5600
+Wire Wire Line
+	9350 5600 9400 5600
+Wire Wire Line
+	9400 6000 9450 6000
+Wire Wire Line
+	9450 6000 9450 5600
+Wire Wire Line
+	9450 5600 9500 5600
+Wire Wire Line
+	9500 6000 9550 6000
+Wire Wire Line
+	9550 6000 9550 5600
+Wire Wire Line
+	9550 5600 9600 5600
+$Comp
+L Device:R_Pack10 RN?
+U 1 1 5BE1E5EC
+P 10200 5800
+AR Path="/5BD8431C/5BE1E5EC" Ref="RN?"  Part="1" 
+AR Path="/5BE1E5EC" Ref="RN32"  Part="1" 
+F 0 "RN32" H 10688 5846 50  0000 L CNN
+F 1 "R_Pack10" H 10688 5755 50  0000 L CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" V 10775 5800 50  0001 C CNN
+F 3 "~" H 10200 5800 50  0001 C CNN
+	1    10200 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 6000 9750 6000
+Wire Wire Line
+	9750 6000 9750 5600
+Wire Wire Line
+	9750 5600 9800 5600
+Wire Wire Line
+	9800 6000 9850 6000
+Wire Wire Line
+	9850 6000 9850 5600
+Wire Wire Line
+	9850 5600 9900 5600
+Wire Wire Line
+	9900 6000 9950 6000
+Wire Wire Line
+	9950 6000 9950 5600
+Wire Wire Line
+	9950 5600 10000 5600
+Wire Wire Line
+	10000 6000 10050 6000
+Wire Wire Line
+	10050 6000 10050 5600
+Wire Wire Line
+	10050 5600 10100 5600
+Wire Wire Line
+	10100 6000 10150 6000
+Wire Wire Line
+	10150 6000 10150 5600
+Wire Wire Line
+	10150 5600 10200 5600
+Wire Wire Line
+	10200 6000 10250 6000
+Wire Wire Line
+	10250 6000 10250 5600
+Wire Wire Line
+	10250 5600 10300 5600
+Wire Wire Line
+	10300 6000 10350 6000
+Wire Wire Line
+	10350 6000 10350 5600
+Wire Wire Line
+	10350 5600 10400 5600
+Wire Wire Line
+	10400 6000 10450 6000
+Wire Wire Line
+	10450 6000 10450 5600
+Wire Wire Line
+	10450 5600 10500 5600
+Wire Wire Line
+	10500 6000 10550 6000
+Wire Wire Line
+	10550 6000 10550 5600
+Wire Wire Line
+	10550 5600 10600 5600
+Wire Wire Line
+	9600 6000 9650 6000
+Wire Wire Line
+	9650 6000 9650 5600
+Wire Wire Line
+	9650 5600 9700 5600
+Text GLabel 8700 5550 1    50   BiDi ~ 0
+5V
+Wire Wire Line
+	8700 5600 8700 5550
+$Comp
+L Connector:Conn_01x20_Male J3
+U 1 1 5BF7BB74
+P 2400 1450
+F 0 "J3" V 2328 1377 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 2237 1377 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2400 1450 50  0001 C CNN
+F 3 "~" H 2400 1450 50  0001 C CNN
+	1    2400 1450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1500 1250
+Connection ~ 2400 1250
+Connection ~ 2500 1250
+Connection ~ 2600 1250
+Connection ~ 2700 1250
+Connection ~ 2800 1250
+Connection ~ 2900 1250
+Connection ~ 3000 1250
+Connection ~ 3100 1250
+Connection ~ 3200 1250
+Connection ~ 3300 1250
+Connection ~ 1600 1250
+Connection ~ 1700 1250
+Connection ~ 1800 1250
+Connection ~ 1900 1250
+Connection ~ 2000 1250
+Connection ~ 2100 1250
+Connection ~ 2200 1250
+Connection ~ 2300 1250
+$Comp
+L Connector:Conn_01x20_Male J7
+U 1 1 5BF7BC81
+P 4800 1450
+F 0 "J7" V 4728 1377 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 4637 1377 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 4800 1450 50  0001 C CNN
+F 3 "~" H 4800 1450 50  0001 C CNN
+	1    4800 1450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3900 1250
+Connection ~ 4800 1250
+Connection ~ 4900 1250
+Connection ~ 5000 1250
+Connection ~ 5100 1250
+Connection ~ 5200 1250
+Connection ~ 5300 1250
+Connection ~ 5400 1250
+Connection ~ 5500 1250
+Connection ~ 5600 1250
+Connection ~ 5700 1250
+Connection ~ 4000 1250
+Connection ~ 4100 1250
+Connection ~ 4200 1250
+Connection ~ 4300 1250
+Connection ~ 4400 1250
+Connection ~ 4500 1250
+Connection ~ 4600 1250
+Connection ~ 4700 1250
+$Comp
+L Connector:Conn_01x20_Male J11
+U 1 1 5BF7BCEB
+P 7200 1450
+F 0 "J11" V 7128 1377 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 7037 1377 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 7200 1450 50  0001 C CNN
+F 3 "~" H 7200 1450 50  0001 C CNN
+	1    7200 1450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6300 1250
+Connection ~ 7200 1250
+Connection ~ 7300 1250
+Connection ~ 7400 1250
+Connection ~ 7500 1250
+Connection ~ 7600 1250
+Connection ~ 7700 1250
+Connection ~ 7800 1250
+Connection ~ 7900 1250
+Connection ~ 8000 1250
+Connection ~ 8100 1250
+Connection ~ 6400 1250
+Connection ~ 6500 1250
+Connection ~ 6600 1250
+Connection ~ 6700 1250
+Connection ~ 6800 1250
+Connection ~ 6900 1250
+Connection ~ 7000 1250
+Connection ~ 7100 1250
+$Comp
+L Connector:Conn_01x20_Male J15
+U 1 1 5BF7BDE9
+P 9600 1450
+F 0 "J15" V 9528 1377 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 9437 1377 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 9600 1450 50  0001 C CNN
+F 3 "~" H 9600 1450 50  0001 C CNN
+	1    9600 1450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8700 1250
+Connection ~ 9600 1250
+Connection ~ 9700 1250
+Connection ~ 9800 1250
+Connection ~ 9900 1250
+Connection ~ 10000 1250
+Connection ~ 10100 1250
+Connection ~ 10200 1250
+Connection ~ 10300 1250
+Connection ~ 10400 1250
+Connection ~ 10500 1250
+Connection ~ 8800 1250
+Connection ~ 8900 1250
+Connection ~ 9000 1250
+Connection ~ 9100 1250
+Connection ~ 9200 1250
+Connection ~ 9300 1250
+Connection ~ 9400 1250
+Connection ~ 9500 1250
+$Comp
+L Connector:Conn_01x20_Male J4
+U 1 1 5BF7BF53
+P 2400 3050
+F 0 "J4" V 2328 2977 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 2237 2977 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2400 3050 50  0001 C CNN
+F 3 "~" H 2400 3050 50  0001 C CNN
+	1    2400 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J8
+U 1 1 5BF7BF59
+P 4800 3050
+F 0 "J8" V 4728 2977 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 4637 2977 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 4800 3050 50  0001 C CNN
+F 3 "~" H 4800 3050 50  0001 C CNN
+	1    4800 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J12
+U 1 1 5BF7BF5F
+P 7200 3050
+F 0 "J12" V 7128 2977 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 7037 2977 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 7200 3050 50  0001 C CNN
+F 3 "~" H 7200 3050 50  0001 C CNN
+	1    7200 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J16
+U 1 1 5BF7BF65
+P 9600 3050
+F 0 "J16" V 9528 2977 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 9437 2977 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 9600 3050 50  0001 C CNN
+F 3 "~" H 9600 3050 50  0001 C CNN
+	1    9600 3050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1500 2850
+Connection ~ 1600 2850
+Connection ~ 1700 2850
+Connection ~ 1800 2850
+Connection ~ 1900 2850
+Connection ~ 2000 2850
+Connection ~ 2100 2850
+Connection ~ 2200 2850
+Connection ~ 2300 2850
+Connection ~ 2400 2850
+Connection ~ 2500 2850
+Connection ~ 2600 2850
+Connection ~ 2700 2850
+Connection ~ 2800 2850
+Connection ~ 2900 2850
+Connection ~ 3000 2850
+Connection ~ 3100 2850
+Connection ~ 3200 2850
+Connection ~ 3300 2850
+Connection ~ 3900 2850
+Connection ~ 4000 2850
+Connection ~ 4100 2850
+Connection ~ 4200 2850
+Connection ~ 4300 2850
+Connection ~ 4400 2850
+Connection ~ 4500 2850
+Connection ~ 4600 2850
+Connection ~ 4700 2850
+Connection ~ 4800 2850
+Connection ~ 4900 2850
+Connection ~ 5000 2850
+Connection ~ 5100 2850
+Connection ~ 5200 2850
+Connection ~ 5300 2850
+Connection ~ 5400 2850
+Connection ~ 5500 2850
+Connection ~ 5600 2850
+Connection ~ 5700 2850
+Connection ~ 6300 2850
+Connection ~ 6400 2850
+Connection ~ 6500 2850
+Connection ~ 6600 2850
+Connection ~ 6700 2850
+Connection ~ 6800 2850
+Connection ~ 6900 2850
+Connection ~ 7000 2850
+Connection ~ 7100 2850
+Connection ~ 7200 2850
+Connection ~ 7300 2850
+Connection ~ 7400 2850
+Connection ~ 7500 2850
+Connection ~ 7600 2850
+Connection ~ 7700 2850
+Connection ~ 7800 2850
+Connection ~ 7900 2850
+Connection ~ 8000 2850
+Connection ~ 8100 2850
+Connection ~ 8700 2850
+Connection ~ 8800 2850
+Connection ~ 8900 2850
+Connection ~ 9000 2850
+Connection ~ 9100 2850
+Connection ~ 9200 2850
+Connection ~ 9300 2850
+Connection ~ 9400 2850
+Connection ~ 9500 2850
+Connection ~ 9600 2850
+Connection ~ 9700 2850
+Connection ~ 9800 2850
+Connection ~ 9900 2850
+Connection ~ 10000 2850
+Connection ~ 10100 2850
+Connection ~ 10200 2850
+Connection ~ 10300 2850
+Connection ~ 10400 2850
+Connection ~ 10500 2850
+$Comp
+L Connector:Conn_01x20_Male J5
+U 1 1 5C06CADC
+P 2400 4600
+F 0 "J5" V 2328 4527 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 2237 4527 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2400 4600 50  0001 C CNN
+F 3 "~" H 2400 4600 50  0001 C CNN
+	1    2400 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J9
+U 1 1 5C06CAE3
+P 4800 4600
+F 0 "J9" V 4728 4527 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 4637 4527 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 4800 4600 50  0001 C CNN
+F 3 "~" H 4800 4600 50  0001 C CNN
+	1    4800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J13
+U 1 1 5C06CAEA
+P 7200 4600
+F 0 "J13" V 7128 4527 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 7037 4527 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 7200 4600 50  0001 C CNN
+F 3 "~" H 7200 4600 50  0001 C CNN
+	1    7200 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J17
+U 1 1 5C06CAF1
+P 9600 4600
+F 0 "J17" V 9528 4527 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 9437 4527 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 9600 4600 50  0001 C CNN
+F 3 "~" H 9600 4600 50  0001 C CNN
+	1    9600 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J6
+U 1 1 5C15D70C
+P 2400 6200
+F 0 "J6" V 2328 6127 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 2237 6127 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2400 6200 50  0001 C CNN
+F 3 "~" H 2400 6200 50  0001 C CNN
+	1    2400 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J10
+U 1 1 5C15D713
+P 4800 6200
+F 0 "J10" V 4728 6127 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 4637 6127 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 4800 6200 50  0001 C CNN
+F 3 "~" H 4800 6200 50  0001 C CNN
+	1    4800 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J14
+U 1 1 5C15D71A
+P 7200 6200
+F 0 "J14" V 7128 6127 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 7037 6127 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 7200 6200 50  0001 C CNN
+F 3 "~" H 7200 6200 50  0001 C CNN
+	1    7200 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male J18
+U 1 1 5C15D721
+P 9600 6200
+F 0 "J18" V 9528 6127 50  0000 C CNN
+F 1 "Conn_01x20_Male" V 9437 6127 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 9600 6200 50  0001 C CNN
+F 3 "~" H 9600 6200 50  0001 C CNN
+	1    9600 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x16_Male J2
+U 1 1 5C33ED13
+P 1250 4350
+F 0 "J2" H 1223 4323 50  0000 R CNN
+F 1 "Conn_01x16_Male" H 1223 4232 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 1250 4350 50  0001 C CNN
+F 3 "~" H 1250 4350 50  0001 C CNN
+	1    1250 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3650 750  3650
+Wire Wire Line
+	750  3750 1050 3750
+Wire Wire Line
+	1050 3850 750  3850
+Wire Wire Line
+	750  3950 1050 3950
+Wire Wire Line
+	1050 4050 750  4050
+Wire Wire Line
+	750  4150 1050 4150
+Wire Wire Line
+	1050 4250 750  4250
+Wire Wire Line
+	750  4350 1050 4350
+Wire Wire Line
+	1050 4450 750  4450
+Wire Wire Line
+	750  4550 1050 4550
+Wire Wire Line
+	1050 4650 750  4650
+Wire Wire Line
+	750  4750 1050 4750
+Wire Wire Line
+	1050 4850 750  4850
+Wire Wire Line
+	750  4950 1050 4950
+Wire Wire Line
+	1050 5050 750  5050
+Wire Wire Line
+	750  5150 1050 5150
+$EndSCHEMATC
